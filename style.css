@@ -1,0 +1,153 @@
+input {
+	outline: none;
+	border: none;
+}
+
+.main {
+	background: url(assets/bg.jpg) center 50% no-repeat;
+	height: 657px;
+}
+.main_field {
+  width: 80%;
+  height: 40rem;
+  background-color: rgba(55, 55, 55, 0.6);
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.5);
+  margin:15rem 10% 0 10%;
+  padding-bottom: 5rem;
+  border: 3px solid #ad7835;
+  overflow-y: auto;
+}
+.main_field ul {
+	width: 82%;
+	margin:5rem 10% 5rem 8%;
+	list-style-image:url(assets/list.png);
+}
+.main_field ul li {
+	height: 5rem;
+	margin-bottom: 2rem;
+	padding-top: 0.8rem;
+	padding-left: 1rem;
+	border: 1px solid #ad7835;
+	border-radius: 10px;
+	font-size: 2.2rem;
+	color: #fff;
+}
+.main_btn{
+	width: 25rem;
+	height: 5rem;
+	margin-top: 2rem;
+	border: 3px solid #ad7835;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,.1);
+	outline: none;
+	color: #fff;
+	font-size: 1.5rem;
+}
+.popup {
+	position: absolute;
+	display: none;
+	width: 40%;
+	height: 20rem;
+	top:0;
+	margin:20rem 30% 0 30%;
+	background-color: rgba(173,120,53, .4);
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 15px;
+	z-index: 111;
+}
+.popup p {
+	line-height: 19.9rem;
+	font-size: 3rem;
+	font-weight: bold;
+	color: #000;
+}
+.popup .close {
+	position: absolute;
+	top:0.5rem;
+	right: 1rem;
+	color:#000;
+	opacity: 1;
+	box-shadow: none;
+}
+
+.access-block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(60, 40, 63);
+	opacity: 0.9;
+}
+
+.popup-result {
+	position: absolute;
+	left: 38%;
+	top: 30%;
+	padding: 10px;
+	text-align: center;
+	width: 320px;
+	border-radius: 20px;
+	border: 2px solid #ffffff;
+}
+
+.popup-result p {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.popup-result .close {
+	margin-top: -5px;
+	color: #928f8f;
+}
+
+.popup-yes {
+	display: none;
+}
+
+.popup-no {
+	display: none;
+}
+
+.popup-access {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+	padding: 10px;
+	text-align: center;
+	width: 240px;
+	border-radius: 20px;
+	border: 2px solid #ffffff;
+}
+
+.popup-access p {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.popup-name {
+	display: block;
+}
+
+.popup-age {
+	display: none;
+}
+
+.popup-subscribe {
+	display: none;
+}
+
+.popup-access .btn-primary {
+	margin-top: 15px;
+}
+
+.form-answer input{
+	margin: auto;
+	width: 180px;
+	height: 30px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+

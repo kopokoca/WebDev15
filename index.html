@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>JS</title>
+</head>
+
+<body>
+	<div class="main" id="main">
+		<div class="container">
+			<div class="main_field">
+				<ul id="list">
+					<li class="item">Первая задача</li>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-md-6 ">
+					<button class="main_btn center-block" id="btn1">
+						Добавить элемент
+					</button>
+				</div>
+				<div class="col-md-6 ">
+					<button class="main_btn center-block" id="btn2">
+						Удалить лишний
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="access-block">
+		<form class="popup-access popup-name">
+			<p class="">Как вас зовут?</p>
+			<div class="form-answer">
+				<input type="text" placeholder="Введите имя" class="input-answer">
+				<button type="button" class="btn btn-primary" id="btn3">Отправить</button>
+			</div>
+		</form>
+
+		<form class="popup-access popup-age">
+			<p class="">Сколько вам лет?</p>
+			<div class="form-answer">
+				<input type="number" placeholder="Введите возраст" class="input-answer">
+				<button type="button" class="btn btn-primary" id="btn4">Отправить</button>
+			</div>
+		</form>
+
+		<form class="popup-access popup-subscribe">
+			<p class="">Вы подписаны на рассылку?</p>
+			<div class="form-answer">
+				<button type="button" class="btn-yes btn btn-success" id="btn5">ДА</button>
+				<button type="button" class="btn-no btn btn-danger" id="btn6">НЕТ</button>
+			</div>
+		</form>
+
+		<form class="popup-result popup-yes">
+			<div class="close close-yes">&times</div>
+			<p class="win">вам разрешён доступ на сайт!</p>
+		</form>
+
+		<form class="popup-result popup-no">
+			<div class=" close close-no">&times</div>
+			<p class="lose">вам запрещён доступ на сайт!</p>
+		</form>
+	</div>
+
+	<div class="popup popup-todo">
+		<div class="close close-todo">&times</div>
+		<p>Все дела на сегодня выполнены!</p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
